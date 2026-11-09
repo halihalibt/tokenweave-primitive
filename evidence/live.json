@@ -1,0 +1,555 @@
+{
+  "network": {
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "owner": "0x670C2d9d33f8E8aA0415F17Bd8EBe9E2B7301455",
+  "started_at": "2026-11-09T13:34:09.906Z",
+  "transactions": [
+    {
+      "label": "deploy",
+      "submitted_at": "2026-11-09T13:34:17.924Z",
+      "hash": "0xcd8da1bf255be1c21808281f9240ff3a91e9968ec4c9f31279a48c015be02c7b",
+      "receipt": {
+        "hash": "0xcd8da1bf255be1c21808281f9240ff3a91e9968ec4c9f31279a48c015be02c7b",
+        "from_address": "0x670C2d9d33f8E8aA0415F17Bd8EBe9E2B7301455",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 1,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:34:18.291028+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "consensus_data": {
+          "votes": {
+            "0x0cf3809a31B0c7E0742d126451aDE1977e3748D2": "agree",
+            "0x2bB088e4E6Fd1faBBd23d93F38D01f28a954A49c": "idle",
+            "0x711353514049EAc21213834ADd07eF552aF394E6": "agree",
+            "0x722474B013fA39E5aA8785f927dCeB0e3F89815B": "idle",
+            "0xe83D7241D0FF0f1f808B9ab3cb06dD2565bDc605": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "reachable:seal",
+      "submitted_at": "2026-11-09T13:36:46.315Z",
+      "hash": "0x048c972d3075c0f222da4bf3d856d96170478fe4c1008015670c3272afc25c98",
+      "receipt": {
+        "hash": "0x048c972d3075c0f222da4bf3d856d96170478fe4c1008015670c3272afc25c98",
+        "from_address": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:36:46.644273+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFUxyZWFjaGFibGW0DnsicmVzb3VyY2VzIjpbInJhdyIsInJlYWR5Il0sImNhcGFjaXRpZXMiOlsyLDJdLCJpbml0aWFsIjpbMSwwXSwidGFyZ2V0IjpbMCwxXSwidHJhbnNpdGlvbnMiOlsiQ29uc3VtZSBvbmUgcmF3IGFuZCBwcm9kdWNlIG9uZSByZWFkeS4gTm8gcmVzb3VyY2VzIGFyZSByZWFkIHdpdGhvdXQgY29uc3VtcHRpb24uIE5vIG90aGVyIHJlc291cmNlcyBhcmUgcmVhZCwgY29uc3VtZWQgb3IgcHJvZHVjZWQuIl19Bm1ldGhvZCRzZWFs"
+        },
+        "consensus_data": {
+          "votes": {
+            "0x29300188B54F5BFEE91542595611603b4B201008": "idle",
+            "0x37CD8552B86b2B662eCfb69C4A1253dBE41EB4C1": "agree",
+            "0x8644a8D2D08903cAFA1F0fb28E34E0ecA727e9ED": "agree",
+            "0xD0eD149D26E76cf49fB588c970E608E44Dd4DAB8": "agree",
+            "0xc675c2B7E1F066B7c1D2fe54EF7B76C91CdFa5F4": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "reachable:analyze",
+      "submitted_at": "2026-11-09T13:37:22.979Z",
+      "hash": "0x2b0f6800a2cab86121ce301751e120fc3c51cd7378f0daed8e84f330561582aa",
+      "receipt": {
+        "hash": "0x2b0f6800a2cab86121ce301751e120fc3c51cd7378f0daed8e84f330561582aa",
+        "from_address": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:37:23.250412+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFUxyZWFjaGFibGUBBm1ldGhvZDxhbmFseXpl"
+        },
+        "consensus_data": {
+          "votes": {
+            "0x1Cd67946A11E6410a3DF1b27d35F4a511e93c882": "agree",
+            "0x2bB088e4E6Fd1faBBd23d93F38D01f28a954A49c": "agree",
+            "0x709a1dDECA594C16AB3864A00Eaa2BB1Cd9b5305": "agree",
+            "0x711353514049EAc21213834ADd07eF552aF394E6": "idle",
+            "0x8f1abcAF0fF10678Af925f83b2Bb8b3534c4b94b": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "unreachable:seal",
+      "submitted_at": "2026-11-09T13:38:13.728Z",
+      "hash": "0x5b0e0331ba6f8a9e23ff1f2bce4dce36a431255248c5c94486af9d04309439d5",
+      "receipt": {
+        "hash": "0x5b0e0331ba6f8a9e23ff1f2bce4dce36a431255248c5c94486af9d04309439d5",
+        "from_address": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:38:13.997497+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFVx1bnJlYWNoYWJsZbQOeyJyZXNvdXJjZXMiOlsicmF3IiwicmVhZHkiXSwiY2FwYWNpdGllcyI6WzIsMl0sImluaXRpYWwiOlswLDBdLCJ0YXJnZXQiOlswLDFdLCJ0cmFuc2l0aW9ucyI6WyJDb25zdW1lIG9uZSByYXcgYW5kIHByb2R1Y2Ugb25lIHJlYWR5LiBObyByZXNvdXJjZXMgYXJlIHJlYWQgd2l0aG91dCBjb25zdW1wdGlvbi4gTm8gb3RoZXIgcmVzb3VyY2VzIGFyZSByZWFkLCBjb25zdW1lZCBvciBwcm9kdWNlZC4iXX0GbWV0aG9kJHNlYWw="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x722474B013fA39E5aA8785f927dCeB0e3F89815B": "agree",
+            "0x8644a8D2D08903cAFA1F0fb28E34E0ecA727e9ED": "agree",
+            "0x8ADae333478F9D037c78b0E3E8279DdAAb20a1B3": "agree",
+            "0xD0eD149D26E76cf49fB588c970E608E44Dd4DAB8": "agree",
+            "0xe83D7241D0FF0f1f808B9ab3cb06dD2565bDc605": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "unreachable:analyze",
+      "submitted_at": "2026-11-09T13:39:00.563Z",
+      "hash": "0x0cb5b24cc2951966cf19745ab81cff023fcbc6d1dbff1dd0aa62ba7ac3175128",
+      "receipt": {
+        "hash": "0x0cb5b24cc2951966cf19745ab81cff023fcbc6d1dbff1dd0aa62ba7ac3175128",
+        "from_address": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:39:00.891345+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFVx1bnJlYWNoYWJsZQEGbWV0aG9kPGFuYWx5emU="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x0cf3809a31B0c7E0742d126451aDE1977e3748D2": "agree",
+            "0x2C93031BCCd12836A67f81a249e68abAFEaac2E5": "agree",
+            "0x560FBD37a10bC2B96F118071e922c9106c12Ba1d": "disagree",
+            "0xe83D7241D0FF0f1f808B9ab3cb06dD2565bDc605": "agree",
+            "0xf1EAD5E5f876eae701eF1881b42861079cd9A287": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "review:seal",
+      "submitted_at": "2026-11-09T13:40:06.862Z",
+      "hash": "0xd17eddcdae7d6706bd7e75ac948cda35da552562fe4fd1f3c798fe1c208debd5",
+      "receipt": {
+        "hash": "0xd17eddcdae7d6706bd7e75ac948cda35da552562fe4fd1f3c798fe1c208debd5",
+        "from_address": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:40:07.170119+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTRyZXZpZXfcB3sicmVzb3VyY2VzIjpbInJhdyIsInJlYWR5Il0sImNhcGFjaXRpZXMiOlsyLDJdLCJpbml0aWFsIjpbMSwwXSwidGFyZ2V0IjpbMCwxXSwidHJhbnNpdGlvbnMiOlsiUHJvY2VzcyB0aGUgcmF3IHJlc291cmNlLiJdfQZtZXRob2Qkc2VhbA=="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x37CD8552B86b2B662eCfb69C4A1253dBE41EB4C1": "agree",
+            "0x709a1dDECA594C16AB3864A00Eaa2BB1Cd9b5305": "idle",
+            "0x8644a8D2D08903cAFA1F0fb28E34E0ecA727e9ED": "idle",
+            "0x8ADae333478F9D037c78b0E3E8279DdAAb20a1B3": "agree",
+            "0xC65Ec56a1141866951B34D846be8EF433764A48B": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "review:analyze",
+      "submitted_at": "2026-11-09T13:40:43.284Z",
+      "hash": "0xdd4e08beb8b6c87571203ff7560c29a9a160232268b226f110fe472e7b6f507a",
+      "receipt": {
+        "hash": "0xdd4e08beb8b6c87571203ff7560c29a9a160232268b226f110fe472e7b6f507a",
+        "from_address": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+        "to_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:40:43.548008+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTRyZXZpZXcBBm1ldGhvZDxhbmFseXpl"
+        },
+        "consensus_data": {
+          "votes": {
+            "0x2C93031BCCd12836A67f81a249e68abAFEaac2E5": "agree",
+            "0x709a1dDECA594C16AB3864A00Eaa2BB1Cd9b5305": "agree",
+            "0x8644a8D2D08903cAFA1F0fb28E34E0ecA727e9ED": "idle",
+            "0xe1626534791FC675ED813Cc2C89C427866526113": "agree",
+            "0xe83D7241D0FF0f1f808B9ab3cb06dD2565bDc605": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "records": [
+    {
+      "id": "reachable",
+      "owner": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+      "expected": "REACHABLE",
+      "record": {
+        "accepted": {
+          "transitions": [
+            {
+              "put": [
+                0,
+                1
+              ],
+              "read": [
+                0,
+                0
+              ],
+              "status": "EXACT",
+              "take": [
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        "input": {
+          "capacities": [
+            2,
+            2
+          ],
+          "initial": [
+            1,
+            0
+          ],
+          "resources": [
+            "raw",
+            "ready"
+          ],
+          "target": [
+            0,
+            1
+          ],
+          "transitions": [
+            "Consume one raw and produce one ready. No resources are read without consumption. No other resources are read, consumed or produced."
+          ]
+        },
+        "input_hash": "6bc117d023faa944dc50b198406b41b4e20fbbff1f15bf503b2bf217b269dd71",
+        "owner": "0xf5f8c08fb08fc5c55013ed6eb1216aa146eaee22",
+        "proof": {
+          "deadlocks": [
+            {
+              "marking": [
+                0,
+                1
+              ],
+              "trace": [
+                0
+              ]
+            }
+          ],
+          "edges": [
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "reachable_markings": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shortest_trace": [
+            0
+          ],
+          "state_count": 2,
+          "status": "REACHABLE"
+        },
+        "record_id": "reachable",
+        "result_hash": "5af313d5432fcfd6d76c771d27805e250e3c2f33082e4c1df2dd40cdf3a40b4c",
+        "revision": 1,
+        "state": "REACHABLE"
+      },
+      "readback_at": "2026-11-09T13:38:13.725Z"
+    },
+    {
+      "id": "unreachable",
+      "owner": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+      "expected": "UNREACHABLE",
+      "record": {
+        "accepted": {
+          "transitions": [
+            {
+              "put": [
+                0,
+                1
+              ],
+              "read": [
+                0,
+                0
+              ],
+              "status": "EXACT",
+              "take": [
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        "input": {
+          "capacities": [
+            2,
+            2
+          ],
+          "initial": [
+            0,
+            0
+          ],
+          "resources": [
+            "raw",
+            "ready"
+          ],
+          "target": [
+            0,
+            1
+          ],
+          "transitions": [
+            "Consume one raw and produce one ready. No resources are read without consumption. No other resources are read, consumed or produced."
+          ]
+        },
+        "input_hash": "9b4f121abb262a6b42089320e41eec61da3fd4c307390838a2cf25fd5d5e4031",
+        "owner": "0xf5f8c08fb08fc5c55013ed6eb1216aa146eaee22",
+        "proof": {
+          "deadlocks": [
+            {
+              "marking": [
+                0,
+                0
+              ],
+              "trace": []
+            }
+          ],
+          "edges": [],
+          "reachable_markings": [
+            [
+              0,
+              0
+            ]
+          ],
+          "shortest_trace": null,
+          "state_count": 1,
+          "status": "UNREACHABLE"
+        },
+        "record_id": "unreachable",
+        "result_hash": "7ba9ae39b72762da80f597be2d5afc410a13d4256d21e8f1b22ac8c2eebb3ce5",
+        "revision": 1,
+        "state": "UNREACHABLE"
+      },
+      "readback_at": "2026-11-09T13:40:06.857Z"
+    },
+    {
+      "id": "review",
+      "owner": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+      "expected": "REVIEW",
+      "record": {
+        "accepted": {
+          "transitions": [
+            {
+              "put": [
+                0,
+                0
+              ],
+              "read": [
+                0,
+                0
+              ],
+              "status": "UNKNOWN",
+              "take": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "input": {
+          "capacities": [
+            2,
+            2
+          ],
+          "initial": [
+            1,
+            0
+          ],
+          "resources": [
+            "raw",
+            "ready"
+          ],
+          "target": [
+            0,
+            1
+          ],
+          "transitions": [
+            "Process the raw resource."
+          ]
+        },
+        "input_hash": "2c615bf4caab7b4cc682105eab0247401004729a3c45db91269f23f5b85a13c9",
+        "owner": "0xf5f8c08fb08fc5c55013ed6eb1216aa146eaee22",
+        "proof": {
+          "status": "REVIEW",
+          "unknown_transitions": [
+            0
+          ]
+        },
+        "record_id": "review",
+        "result_hash": "70ff774ec5c2f19c2aa6e15a0c1f7520a20751e2256d88eb54feb9ac53109a8b",
+        "revision": 1,
+        "state": "REVIEW"
+      },
+      "readback_at": "2026-11-09T13:41:36.463Z"
+    }
+  ],
+  "source_sha256": "323858951899a9fd64ceb799dff8a4b1e820966719fe499fb98788293e2ba66e",
+  "run_owner": "0xf5f8C08fB08fC5C55013Ed6EB1216Aa146EAee22",
+  "contract_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+  "source_verified": true,
+  "completed_at": "2026-11-09T13:41:36.477Z",
+  "receipt_format": "selected original fields; complete unmodified journal in raw-live.json.gz",
+  "raw_archive_sha256": "d4e28fe8994b78a9d1d4e5475f562e0c35b247353d485b1b1f54563828526bdc"
+}

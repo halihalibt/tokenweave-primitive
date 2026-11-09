@@ -1,0 +1,15 @@
+{
+  "network": {
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "contract_address": "0x76E9871ef2FBfF1d6f866418562Fe592376c14bF",
+  "deployment_transaction": "0xcd8da1bf255be1c21808281f9240ff3a91e9968ec4c9f31279a48c015be02c7b",
+  "source": "contracts/tokenweave.py",
+  "source_sha256": "323858951899a9fd64ceb799dff8a4b1e820966719fe499fb98788293e2ba66e",
+  "source_verified": true,
+  "mode": "NORMAL",
+  "constructor_arguments": [],
+  "sdk": "genlayer-js@1.1.8",
+  "raw_archive_sha256": "d4e28fe8994b78a9d1d4e5475f562e0c35b247353d485b1b1f54563828526bdc"
+}

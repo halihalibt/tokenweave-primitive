@@ -1,0 +1,21 @@
+{
+  "resources": [
+    "raw",
+    "ready"
+  ],
+  "capacities": [
+    2,
+    2
+  ],
+  "initial": [
+    1,
+    0
+  ],
+  "target": [
+    0,
+    1
+  ],
+  "transitions": [
+    "Process the raw resource."
+  ]
+}
